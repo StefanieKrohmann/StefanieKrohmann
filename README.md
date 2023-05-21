@@ -17,7 +17,7 @@ Our web application consists of a Java backend, a React frontend, a MySQL databa
 
 - 📚 Learn more: https://github.com/The-Agile-Avengers/icu-connect-frontend/wiki
 
-<img width="1506" alt="IcuConnect" src="https://github.com/StefanieKrohmann/StefanieKrohmann/assets/71380307/a8386fff-b270-4a76-8660-a120a4550e81">
+![communities](https://github.com/StefanieKrohmann/StefanieKrohmann/assets/71380307/8f50dfba-a3d8-45e3-b9b1-47305eec8cea)
 
 ![architecture](https://github.com/StefanieKrohmann/StefanieKrohmann/assets/71380307/09391d6f-d734-4585-a48b-de2d256709ec)
 
