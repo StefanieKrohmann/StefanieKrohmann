@@ -13,13 +13,13 @@ I am a people-oriented computing student at the university of Zurich and I am cu
 ### ICU Connect 🟢
 ICU Connect serves as a social network exclusively for UZH / IFI students, enabling them to gain valuable insights into course content and quality through ratings, shared files, posts, and interactive discussions. Collaboration among students from various courses fosters knowledge sharing, ensuring the transfer of valuable information from year to year. Additionally, for those without personal connections to previous course takers, a forum with supplementary information proves highly beneficial.
 
-<img width="1506" alt="IcuConnect" src="https://github.com/StefanieKrohmann/StefanieKrohmann/assets/71380307/a8386fff-b270-4a76-8660-a120a4550e81">
-
 Our web application consists of a Java backend, a React frontend, a MySQL database and leverages AWS services as for example the S3 service for storing and managing documents. The architecture follows a client-server model, with the backend serving as the server-side component and the frontend running in the client's browser. 
 
+- 📚 Learn more: https://github.com/The-Agile-Avengers/icu-connect-frontend/wiki
+
+<img width="1506" alt="IcuConnect" src="https://github.com/StefanieKrohmann/StefanieKrohmann/assets/71380307/a8386fff-b270-4a76-8660-a120a4550e81">
 ![architecture](https://github.com/StefanieKrohmann/StefanieKrohmann/assets/71380307/09391d6f-d734-4585-a48b-de2d256709ec)
 
-- 📚 Learn more: https://github.com/The-Agile-Avengers/icu-connect-frontend/wiki
 
 ### BROLAT 📅
 
