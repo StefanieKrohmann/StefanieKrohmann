@@ -1,6 +1,6 @@
 ## About Me
 
-I am a people-oriented computing student at the university of Zurich and I am currently in the 5th semester of my bachelor's degree. I am especially interested in human-computer interaction, user experience, user interface design, accessbility, frontend development and and always enthusiastic to hear about other topics!
+I am a people-oriented computing student at the university of Zurich in my masters degree. I am especially interested in human-computer interaction, user experience, user interface design, accessbility, frontend development and and always enthusiastic to hear about other topics!
 
 - 🔭 I’m currently working on building my own website
 - 🌱 I’m currently learning more on frontend development
