@@ -10,6 +10,12 @@ I am a people-oriented computing student at the university of Zurich and I am cu
 
 ## Projects
 
+### Climate Quest 🗺️
+Currently working in budding startup in our early stages, dedicated to combating climate change through a simple, user-friendly and enjoyable app. With a meeting scheduled with potential investors in just two weeks, we're seeking someone to create a foundational Minimum Viable Product (MVP) using our UI mockup and well-defined user stories.
+
+Our goal is to create a Web application where users can challenge themself to achieve small positive changes that benefit the climate. We provide the user with small and visible quests, which can be done during their daily life, such as taking the bike to work or picking up trash. Such small quests should help create awareness about the small changes that can benefit the climate and help them form potential positive habits. Gamification is an essential factor of our approach, which should motivate users to fulfill the quests and reduce their C02 emissions.
+
+
 ### ICU Connect 🟢
 ICU Connect serves as a social network exclusively for UZH / IFI students, enabling them to gain valuable insights into course content and quality through ratings, shared files, posts, and interactive discussions. Collaboration among students from various courses fosters knowledge sharing, ensuring the transfer of valuable information from year to year. Additionally, for those without personal connections to previous course takers, a forum with supplementary information proves highly beneficial.
 
