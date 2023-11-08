@@ -11,37 +11,40 @@ I am a people-oriented computing student at the university of Zurich in my maste
 ## Projects
 
 ### Supply Manager 🧑‍⚕️
-For my Master Project I and four other students took part in a project dedicated to halting the spread of non-communicable diseases (NCDs) in sub-Saharan Africa, where healthcare resources are limited. Chronic Care Workers (CCWs) play a crucial role in the project and are responsible for screening, diagnosing, and treating NCDs such as diabetes and hypertension in local communities. However, there is a lack of a supply management system, which would be highly beneficial to CCWs in managing their medical supplies.
+For my Master's Project, I, along with four other students, developed the prototype that I designed for my Bachelor's Thesis. This Master's Project was a part of a broader initiative dedicated to halting the spread of non-communicable diseases (NCDs) in sub-Saharan Africa, where healthcare resources are limited. In this endeavor, Chronic Care Workers (CCWs) assume a critical role, responsible for the screening, diagnosis, and treatment of NCDs such as diabetes and hypertension within local communities. However, there a supply management system is lacking, which could provide immense value to CCWs in efficiently handling their medical resources.
 
 This master's project aimed to address this gap by implementing a Supply-Manager to support CCWs in their essential work. The Supply-Manager consists of a Worker-Frontend and an Admin-Panel, serving as interfaces for CCWs and administrators, respectively. The Worker-Frontend focuses on helping CCWs manage their supplies and facilitating their interaction with the Supply-Manager, offering an appealing user experience.The Admin-Panel retrieves essential data from an existing application, serving as a bridge between this application and the Worker-Frontend. Extensive user interviews have been conducted to evaluate the Supply-Manager, allowing participants to actively engage with the Worker-Frontend and Admin-Panel interfaces. 
 
 The developed Supply-Manager empowers CCWs and administrators with effective tools for streamlined supply management. By integrating user-centered design and evaluation, this work contributes to the project's success in improving healthcare delivery and addressing the challenge of NCDs.
 
 <div style="display: flex; justify-content: space-between;">
-  <img src="https://github.com/StefanieKrohmann/StefanieKrohmann/assets/71380307/006366c7-f61e-4ab9-91e2-841364f250bf" alt="MyStock" style="width: 48%;" />
-  <img src="https://github.com/StefanieKrohmann/StefanieKrohmann/assets/71380307/0fa18973-648e-4d11-be1a-326d02623c42" alt="Order" style="width: 48%;" />
+  <img src="https://github.com/StefanieKrohmann/StefanieKrohmann/assets/71380307/6617d071-b4c2-4aa1-878b-020612ab0b76" alt="MyStock" style="width: 48%;" />
+  <img src="https://github.com/StefanieKrohmann/StefanieKrohmann/assets/71380307/889ab418-d5ff-4dd8-8d42-58a0f32d978f" alt="Order" style="width: 48%;" />
 </div>
 
 <div style="display: flex; justify-content: space-between;">
-  <img src="https://github.com/StefanieKrohmann/StefanieKrohmann/assets/71380307/20b5d62a-0017-4840-b126-b5df54b09614" alt="Pack My Bag" style="width: 48%;" />
-  <img src="https://github.com/StefanieKrohmann/StefanieKrohmann/assets/71380307/810a549a-ee33-4349-b3b4-ed10bde9c14a" alt="Order" style="width: 48%;" />
+  <img src="https://github.com/StefanieKrohmann/StefanieKrohmann/assets/71380307/3c566548-261c-4339-b343-185b6f56e5c0" alt="Pack My Bag" style="width: 48%;" />
+  <img src="https://github.com/StefanieKrohmann/StefanieKrohmann/assets/71380307/d49fba86-06f5-4e28-950c-5596746cb2bf" alt="Order" style="width: 48%;" />
 </div>
 
-#### Implementation
+#### Implementation & Architecture
 The Worker-Frontend and Admin-Panel serve as the primary components of the Supply-Manager. The Worker-Fronted was build as a PWA using Typescript and React. Given the requirement for proper offline mode functionality, each CCW is equipped with its own dedicated CouchDB. In offline mode, the front end leverages PouchDB to store the current state locally, which is subsequently synchronized with the corresponding CouchDB once an online connection is established. This architecture allows direct communication between the Worker-Frontend and the multiple CouchDBs, enabling seamless data management and supporting individual CCWs with their dedicated databases. Due to the Worker-Frontend’s capability to save and synchronize its local states upon
 regaining an online connection, the Admin-Panel refrains from making direct modifications to the CouchDBs. Instead, the primary role of the Admin-Panel in relation to CouchDB revolves around managing the creation and deletion of CouchDBs, specifically generating a new CouchDB for each new CCW and removing the corresponding CouchDB upon CCW deletion. Besides that, the Admin-Panel solely relies on read access to each CouchDB associated with individual CCWs. As for the Admin-Panel’s internal operations, it leverages a relational database named MySQL. This database serves as a repository for storing essential components crucial for the utilization of the Supply-Manager.
 
-![image](https://github.com/StefanieKrohmann/StefanieKrohmann/assets/71380307/b1a13540-00c2-446f-b569-d35fda7e90b7)
+  <img src="https://github.com/StefanieKrohmann/StefanieKrohmann/assets/71380307/b1a13540-00c2-446f-b569-d35fda7e90b7" alt="Architecture MP" style="width: 48%;" />
 
 
 ### ICU Connect 🟢
 ICU Connect serves as a social network exclusively for UZH / IFI students, enabling them to gain valuable insights into course content and quality through ratings, shared files, posts, and interactive discussions. Collaboration among students from various courses fosters knowledge sharing, ensuring the transfer of valuable information from year to year. Additionally, for those without personal connections to previous course takers, a forum with supplementary information proves highly beneficial.
 
-Our web application consists of a Java backend, a React frontend, a MySQL database and leverages AWS services as for example the S3 service for storing and managing documents. The architecture follows a client-server model, with the backend serving as the server-side component and the frontend running in the client's browser. 
-
 - 📚 Learn more: https://github.com/The-Agile-Avengers/icu-connect-frontend/wiki
 
 ![communities](https://github.com/StefanieKrohmann/StefanieKrohmann/assets/71380307/8f50dfba-a3d8-45e3-b9b1-47305eec8cea)
+
+#### Implementation & Architecture
+Our web application consists of a Java backend, a React frontend, a MySQL database and leverages AWS services as for example the S3 service for storing and managing documents. The architecture follows a client-server model, with the backend serving as the server-side component and the frontend running in the client's browser. 
+
+- 📚 Learn more: https://github.com/The-Agile-Avengers/icu-connect-frontend/wiki
 
 ![architecture](https://github.com/StefanieKrohmann/StefanieKrohmann/assets/71380307/09391d6f-d734-4585-a48b-de2d256709ec)
 
